@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+}
+
+.container{
+    padding-top: 100px;
+}
+
+.container h1{
+    padding: 20px;
+}
+
+body{
+    font-family: sans-serif;
+    background: linear-gradient(#419b54, #2de245dc);
+    color: #fff;
+}
+
+.input input{
+    margin: 10px;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(20, 74, 99, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    
+}
+
+@media only screen and (max-width: 510px) {
+    .box {
+      width : 300px;
+    }
+  }
