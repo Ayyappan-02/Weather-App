@@ -39,7 +39,7 @@ class Form extends Component {
         event.preventDefault()
 
     
-        axios.get('http://api.openweathermap.org/data/2.5/weather?q='+this.state.city+'&APPID=f59b0c8dc13aafdd81623ac8ebbb9244&units=metric')
+        axios.get('https://api.openweathermap.org/data/2.5/weather?q='+this.state.city+'&APPID=f59b0c8dc13aafdd81623ac8ebbb9244&units=metric')
         .then(response =>{
             console.log(response)
             this.setState({ 
